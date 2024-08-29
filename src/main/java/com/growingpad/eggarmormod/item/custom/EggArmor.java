@@ -5,13 +5,16 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.Tags;
-
 import java.util.function.Supplier;
 
 public enum EggArmor implements ArmorMaterial {
-    EGG("egg", 6, new int[] { 5, 7, 5, 4 }, 25, SoundEvents.ARMOR_EQUIP_TURTLE,1f, 0f, () -> Ingredient.of((Items.EGG)));
-    ;
+    EGG("egg", 6,
+            new int[] { 5, 7, 5, 4 },
+            25,
+            SoundEvents.ARMOR_EQUIP_TURTLE,1f,
+            0f,
+            () -> Ingredient.of((Items.EGG))
+    );
     private final String name;
     private final int durabilityMultiplayer;
     private final int[] protectionAmount;
