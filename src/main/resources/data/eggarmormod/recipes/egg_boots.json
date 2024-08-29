@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "result": {
+    "item": "eggarmormod:egg_boots"
+  }
+}
