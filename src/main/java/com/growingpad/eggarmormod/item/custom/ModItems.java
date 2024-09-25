@@ -11,6 +11,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, EggArmorMod.MOD_ID);
+
+    public static final RegistryObject<Item> HARD_EGG = ITEMS.register("hard_egg",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> EGG_HELMET = ITEMS.register("egg_helmet",
             () -> new ArmorItem(EggArmor.EGG, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> EGG_CHESTPLATE = ITEMS.register("egg_chestplate",
@@ -19,6 +23,7 @@ public class ModItems {
             () -> new ArmorItem(EggArmor.EGG, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> EGG_BOOTS = ITEMS.register("egg_boots",
             () -> new ArmorItem(EggArmor.EGG, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
     }
