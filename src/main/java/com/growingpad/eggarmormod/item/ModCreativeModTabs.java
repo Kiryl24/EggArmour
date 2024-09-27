@@ -21,7 +21,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(new ItemStack(Items.EGG));
 
-                        pOutput.accept(ModItems.HARD_EGG.get());
+                        pOutput.accept(ModItems.EGGIUM_INGOT.get());
                         pOutput.accept(ModItems.EGG_HELMET.get());
                         pOutput.accept(ModItems.EGG_CHESTPLATE.get());
                         pOutput.accept(ModItems.EGG_LEGGINGS.get());

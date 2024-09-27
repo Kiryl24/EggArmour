@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "E I E",
+    "E I E",
+    "I I I"
+  ],
+  "result": {
+    "item": "eggarmormod:eggium_ingot"
+  }
+}
