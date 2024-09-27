@@ -1,7 +1,7 @@
 {
-    "item.eggarmormod.hard_egg": "Hard Egg",
-    "item.eggarmormod.egg_helmet": "Egg Helmet",
-    "item.eggarmormod.egg_chestplate": "Egg Chestplate",
-    "item.eggarmormod.egg_leggings": "Egg Leggings",
-    "item.eggarmormod.egg_boots": "Egg Boots"
+    "item.eggarmormod.egg_helmet": "Eggium Helmet",
+    "item.eggarmormod.egg_chestplate": "Eggium Chestplate",
+    "item.eggarmormod.egg_leggings": "Eggium Leggings",
+    "item.eggarmormod.egg_boots": "Eggium Boots",
+    "item.eggarmormod.eggium_ingot": "Eggium Ingot"
 }

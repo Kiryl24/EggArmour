@@ -11,9 +11,9 @@
     }
   },
   "pattern": [
-    "E I E",
-    "E I E",
-    "I I I"
+    "EIE",
+    "EIE",
+    "III"
   ],
   "result": {
     "item": "eggarmormod:eggium_ingot"
