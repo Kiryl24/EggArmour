@@ -67,7 +67,7 @@ public class EggArmorMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.HARD_EGG);
+            event.accept(ModItems.EGGIUM_INGOT);
         }
     }
 

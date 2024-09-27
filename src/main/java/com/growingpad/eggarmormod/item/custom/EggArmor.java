@@ -13,7 +13,7 @@ public enum EggArmor implements ArmorMaterial {
             25,
             SoundEvents.ARMOR_EQUIP_TURTLE,1f,
             0f,
-            () -> Ingredient.of((Items.EGG))
+            () -> Ingredient.of((ModItems.EGGIUM_INGOT))
     );
     private final String name;
     private final int durabilityMultiplayer;
